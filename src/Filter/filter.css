@@ -1,0 +1,22 @@
+.filter_container {
+    display: flex;
+    justify-content: left;
+}
+
+.filter_container>.heading {
+    font-size: 20px;
+    padding-right: 15px;
+}
+.filter_container>.select_tag {
+    font-size: 20px;
+    width: 150px;
+    padding: 0 10px;
+}
+.filter_container>.select_tag>.filter_title {
+    font-size: 16px;
+    font-weight: 500;
+}
+.filter_container select {
+    width: 100%;
+    height: 25px;
+}
